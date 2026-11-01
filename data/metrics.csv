@@ -1,0 +1,8 @@
+repo,stars,open_issues,days_since_push,archived,days_since_release,contributors,fetched_on
+psf/requests,54641,245,4,False,169,100,2026-10-31
+pallets/flask,74995,4,0,False,254,100,2026-10-31
+pandas-dev/pandas,50269,2086,0,False,9,100,2026-10-31
+jsvine/pdfplumber,10857,126,16,False,138,37,2026-10-31
+microsoft/playwright-python,15081,0,0,False,8,63,2026-10-31
+madmaze/pytesseract,6397,21,11,False,1111,42,2026-10-31
+python-excel/xlwt,1043,8,2443,True,,14,2026-10-31

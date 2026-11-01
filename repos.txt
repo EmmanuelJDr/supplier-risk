@@ -1,0 +1,8 @@
+# One repository per line, in owner/name format
+psf/requests
+pallets/flask
+pandas-dev/pandas
+jsvine/pdfplumber
+microsoft/playwright-python
+madmaze/pytesseract
+python-excel/xlwt
