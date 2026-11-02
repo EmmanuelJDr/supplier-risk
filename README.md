@@ -15,3 +15,6 @@ Other Medium results are accurate: `psf/requests-html` has not been updated for 
 To run it, set a `GITHUB_TOKEN` environment variable, then run `py fetch.py` and `py score.py`.
 
 Limits: open issue counts include pull requests, contributors are capped at 100, and the score measures activity, not security or code quality.
+## SQL
+
+`sql/stale_or_archived.sql` lists libraries that have had no push in over a year, or are archived. It runs against a SQLite database loaded from `data/metrics.csv`.
