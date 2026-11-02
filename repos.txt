@@ -6,3 +6,13 @@ jsvine/pdfplumber
 microsoft/playwright-python
 madmaze/pytesseract
 python-excel/xlwt
+python-excel/xlrd
+py-pdf/pypdf
+nose-devs/nose
+psf/requests-html
+yaml/pyyaml
+numpy/numpy
+django/Django
+scikit-learn/scikit-learn
+fastapi/fastapi
+pydantic/pydantic
