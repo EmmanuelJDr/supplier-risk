@@ -17,4 +17,15 @@ To run it, set a `GITHUB_TOKEN` environment variable, then run `py fetch.py` and
 Limits: open issue counts include pull requests, contributors are capped at 100, and the score measures activity, not security or code quality.
 ## SQL
 
-`sql/stale_or_archived.sql` lists libraries that have had no push in over a year, or are archived. It runs against a SQLite database loaded from `data/metrics.csv`.
+The SQL queries run against a SQLite database built from `data/metrics.csv`.
+
+To build the database, run:
+
+    py build_db.py
+
+This creates `data/supplier_risk.db`. The database is not committed to the repo, so run the script before querying.
+
+Queries are in the `sql` folder:
+
+- `stale_or_archived.sql` lists libraries with no push in over a year, or archived.
+- `status_by_repo.sql` labels each library as Active, Inactive over a year, or Archived.
