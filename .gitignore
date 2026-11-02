@@ -2,4 +2,5 @@ cache/
 .env
 __pycache__/
 ~$*
+*.db.
 
